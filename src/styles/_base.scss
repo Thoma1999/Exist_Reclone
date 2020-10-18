@@ -1,0 +1,104 @@
+.container#content {
+  margin-top: 60px;
+}
+body {
+  background-color: $light-gray;
+  font-family: $site-font;
+}
+
+
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+
+.hero{
+  background-image: url("../images/forest-background.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 40%;
+  background-size: cover;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 35px;
+  text-align: center;
+  
+}
+.hero .content{
+  padding: 70px 50px;
+  padding-bottom: 30px;
+}
+#pageNav{
+  background-color: rgb(0, 0, 0);
+  opacity: 90%;
+  // border-right: 1px solid rgba(0, 0, 0, 0.4);
+  // border-left: 1px solid rgba(0, 0, 0, 0.4);
+  // border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  line-height: 0;
+  margin-bottom: 5px;
+}
+#pageNav .navbar-nav .nav-link {
+  color: #ffffff;
+  // margin-top: 2px;
+  &:hover {
+    color: #03570a;
+  }
+}
+.navbar-nav .nav-item{
+  margin: 0;
+}
+
+#catNav .navbar-nav{
+  justify-content: center;
+  width: 80%;
+}
+
+#catNav{
+  background-color: #E0DDCF;
+  line-height: 0;
+}
+
+
+#catNav .nav-item{
+  margin: 5px 20px;
+}
+
+#catNav .nav{
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+
+.content h2{
+  color: #fff;
+  margin: auto;
+  font-size: 0.5em;
+}
+.content img{
+  display: block;
+  margin: auto;
+  width: 200px;
+}
+
+#hamburger{
+  border: none;
+}
+
+.navbar-toggler-icon{
+  width: 25px;
+  height: 25px;
+}
+
+#searchForm{
+  margin: 0;
+}
+#searchBox{
+  height: 28px;
+  font-size: 15px;
+}
