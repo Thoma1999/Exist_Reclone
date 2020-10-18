@@ -33,7 +33,7 @@ const Header = () => {
   const searchClass = search ?'searchBox active': 'searchBox'; 
   return (
     <div>
-      <Navbar id="pageNav" dark expand={true} fixed="top" color="black">
+      <Navbar id="pageNav" dark expand={true} color="black">
           <Nav className="mr-auto" navbar>
             <NavItem>
               <NavLink href="/">Home</NavLink>

@@ -1,0 +1,37 @@
+.container{
+    // display: table; /* Make the container element behave like a table */
+    width: 100%; /* Set full-width to expand the whole page */
+}
+
+img{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.col-md-3 .row{
+    overflow: hidden;
+    object-fit: cover;
+    margin: 0;
+    height: 33.3%;
+    width: 100%;
+}
+
+.col-md-3{
+    padding: 0;
+}
+
+
+.col-md-9{
+    padding: 0;
+}
+
+.col-md-9 .row{
+   height: 100%;
+   overflow: hidden;
+   object-fit: cover;
+   margin: 0;
+   width: 100%;
+}
+
+
+

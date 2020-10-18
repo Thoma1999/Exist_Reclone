@@ -1,5 +1,6 @@
 .container#content {
-  margin-top: 60px;
+  margin-top: 20px;
+  background-color: #F1F0EA !important;
 }
 body {
   background-color: $light-gray;
@@ -27,18 +28,19 @@ h1 {
   
 }
 .hero .content{
-  padding: 70px 50px;
+  padding: 50px 50px;
   padding-bottom: 30px;
 }
+
 #pageNav{
-  background-color: #1A1919;
-  opacity: 85%;
+  background-color: #000000;
+  opacity: 95%;
   // border-right: 1px solid rgba(0, 0, 0, 0.4);
   // border-left: 1px solid rgba(0, 0, 0, 0.4);
   // border-bottom: 1px solid rgba(0, 0, 0, 0.4);
   line-height: 0;
-  margin-bottom: 5px;
 }
+
 #pageNav .navbar-nav .nav-link {
   color: #ffffff;
   margin: 0 5px;
