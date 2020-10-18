@@ -31,8 +31,8 @@ h1 {
   padding-bottom: 30px;
 }
 #pageNav{
-  background-color: rgb(0, 0, 0);
-  opacity: 90%;
+  background-color: #1A1919;
+  opacity: 85%;
   // border-right: 1px solid rgba(0, 0, 0, 0.4);
   // border-left: 1px solid rgba(0, 0, 0, 0.4);
   // border-bottom: 1px solid rgba(0, 0, 0, 0.4);
@@ -41,6 +41,15 @@ h1 {
 }
 #pageNav .navbar-nav .nav-link {
   color: #ffffff;
+  margin: 0 5px;
+  // margin-top: 2px;
+  &:hover {
+    color: #03570a;
+  }
+}
+
+#catNav .navbar-nav .nav-link {
+  color: #000000;
   // margin-top: 2px;
   &:hover {
     color: #03570a;
@@ -79,6 +88,7 @@ ul {
   color: #fff;
   margin: auto;
   font-size: 0.5em;
+  font-weight: 200;
 }
 .content img{
   display: block;
@@ -97,8 +107,41 @@ ul {
 
 #searchForm{
   margin: 0;
+  margin-right: 2%;
+  display: flex;
 }
-#searchBox{
+form{
+  margin: 0px;
+}
+.searchBox{
   height: 28px;
   font-size: 15px;
+  width: 0px;
+  transition: width 0.1s ease-in;
+  padding: 0 0;
+  margin: 0px;
+  border: 0px;
+}
+
+.searchBox.active{
+  width: 200px;
+  padding: 6.75px 13.5px;
+  border: 2px;
+}
+
+.searchIcon{
+  width: 30px;
+  height: 30px;
+  padding: 2px;
+  margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  #searchForm{
+    display: none;
+  }
+
+  .mr-auto{
+    margin: auto;
+  }
 }

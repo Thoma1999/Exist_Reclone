@@ -19,20 +19,18 @@ const Header = () => {
 
   const toggle = () => setIsOpen(!isOpen);
   
-  // const [search,setSearch] = useState(false)
+  const [search,setSearch] = useState(false)
 
   const submitSearch = (e) =>{
       e.preventDefault();
       alert("Searched");
   }
 
-  // const openSearch = () =>{
-  //     setSearch(true);
+  const openSearch = () =>{
+    setSearch(true);
+  }
 
-
-  // }
-
-  // const searchClass = search ?'searchInput active': 'searchInput'; 
+  const searchClass = search ?'searchBox active': 'searchBox'; 
   return (
     <div>
       <Navbar id="pageNav" dark expand={true} fixed="top" color="black">
@@ -47,15 +45,17 @@ const Header = () => {
               <NavLink href="/contact">Contact</NavLink>
             </NavItem>
           </Nav>
-          <FormGroup id="searchForm" onSubmit={submitSearch}>
+          <form onSubmit={submitSearch}>
+          <FormGroup id="searchForm" className="ml-auto" >
             <Input
               type="search"
               name="search"
-              id="searchBox"
+              className={searchClass}
               placeholder="search"
             />
-            <img className="searchIcon" src={require('../images/search.png')} alt="Search"/>
+            <img className="searchIcon" src={require('../images/search.png')} alt="Search" onClick={openSearch}/>
           </FormGroup>
+          </form>
       </Navbar>
       <div className="hero">
         <div className="content">
