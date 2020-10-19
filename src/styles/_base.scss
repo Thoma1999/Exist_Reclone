@@ -1,5 +1,5 @@
 .container#content {
-  margin-top: 20px;
+  margin-top: 10px;
   background-color: #F1F0EA !important;
 }
 body {
@@ -23,12 +23,13 @@ h1 {
   font-family: Roboto;
   font-style: normal;
   font-weight: 300;
-  font-size: 35px;
+  font-size: 2.5em;
   text-align: center;
+  margin-bottom: 10px;
   
 }
 .hero .content{
-  padding: 50px 50px;
+  padding: 30px 30px;
   padding-bottom: 30px;
 }
 
@@ -46,6 +47,7 @@ h1 {
 }
 
 #pageNav .navbar-nav .nav-link {
+  font-size: 1.2em;
   color: #ffffff;
   margin: 0 5px;
   // margin-top: 2px;
@@ -56,6 +58,8 @@ h1 {
 
 #catNav .navbar-nav .nav-link {
   color: #000000;
+  font-size: 1.1em !important;
+  font-weight: 400 !important;
   // margin-top: 2px;
   &:hover {
     color: #03570a;
@@ -67,7 +71,7 @@ h1 {
 
 #catNav .navbar-nav{
   justify-content: center;
-  width: 80%;
+  width: 90%;
 }
 
 #catNav{
@@ -77,7 +81,7 @@ h1 {
 
 
 #catNav .nav-item{
-  margin: 5px 20px;
+  margin: 5px 10px;
 }
 
 #catNav .nav{
@@ -146,8 +150,10 @@ form{
   #searchForm{
     display: none;
   }
-
   .mr-auto{
     margin: auto;
+  }
+  #pageNav .navbar-nav .nav-link {
+    margin: 0 10px;
   }
 }
