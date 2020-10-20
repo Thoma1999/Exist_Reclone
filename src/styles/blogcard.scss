@@ -1,0 +1,51 @@
+#cardContainer {
+    margin: 0 0;
+    margin-top: 20px;
+    padding: 20px 20px;
+    background-color: #E0DDCF;
+    text-align: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#postImage{
+    width: 100%;
+}
+
+#authorDate{
+    display: block;
+    margin: 15px 0;
+}
+
+#cardContainer p{
+    margin: 15px 0;
+    text-align: left;
+    padding: 0 40px;
+
+}
+#postTitle{
+    font-size: 1.3em;
+    font-style: italic;
+    font-weight: 500;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#cardContainer span{
+    text-align: center;
+}
+
+#postTag{
+    color: white;
+    padding: 6px 40px;
+    font-size: 1em;
+}
+
+#readmore{
+    color: white;
+    padding: 8px 30px;
+    background: #3E885B;
+    border-radius: 20px;
+    font-size: 0.9em;
+    width: 180px;
+}

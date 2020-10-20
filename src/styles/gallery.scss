@@ -1,6 +1,6 @@
 .container{
     // display: table; /* Make the container element behave like a table */
-    width: 100%; /* Set full-width to expand the whole page */
+    width: 100%; 
     position: relative;
     padding: 0px;
     max-width: 1260px;
@@ -9,6 +9,16 @@
 #galleryMainR{
     max-width: 1260px;
     margin: 0px 0px !important;
+}
+
+#galleryMainR{
+    .col-md-4{
+        padding: 0;
+    }
+      
+    .col-md-8{
+        padding: 0;
+    }
 }
 
 .smallHeadlineR{
@@ -26,14 +36,6 @@
    object-fit: cover;
    margin: 0;
    width: 100%;
-}
-
-.col-md-4{
-    padding: 0;
-}
-
-.col-md-8{
-    padding: 0;
 }
 
 #galleryMainR img{
@@ -58,11 +60,7 @@
     text-align: center;
 }
 
-.tag{
-    background-color: #3E885B;
-    font-weight: 400;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
+
 .largeHeadlineR .headlineDetails .tag{
     padding: 6px 40px;
     font-size: 1em;

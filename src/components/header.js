@@ -4,12 +4,10 @@ import {
   Collapse,
   Navbar,
   NavbarToggler,
-  NavbarBrand,
   Nav,
   NavItem,
   NavLink,
  FormGroup,
- Label,
  Input
 } from 'reactstrap';
 import logo from '../images/logo-main-white.png';
