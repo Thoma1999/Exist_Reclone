@@ -7,7 +7,8 @@ const Blogcard = () => {
   return (
     <Container id="cardContainer">
         <img id="postImage" src={car}/>
-        <h3 id="postTitle">Some blog post title will be here</h3>
+        <h3 id="postTitle">
+Herd immunity or lockdown? Was the UK government caught in two minds?</h3>
         <span id="postTag" className="tag">Technology</span>
         <span id="authorDate">Posted by name on date</span>
         <p id="postIntro">lorem ipsumWhatever By Gritter97 on Jun 30 2020
